@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CSS - POSIOTION</title>
+		<style>
+			/* static = normal */
+			#static{
+				color: lightblue;
+				border: 2px solid lightgreen;
+				position: static;
+				height: 100px;
+				width: 150px;
+			}
+
+			/* relative = relativo à sua posição, no caso à sua posição no código html */
+			#relative{
+				color: pink;
+				border: 2px solid #AB82FF;
+				position: relative;
+				top: 10px;
+				left: 50px;
+				height: 100px;
+				width: 150px;
+			}
+
+			/* abolute = relativo a tag a qual pertence, sua tag principal */
+			#absolute{
+				position: relative;
+				border: 2px solid #FF6A6A;
+				height: 100px;
+				width: 150px;
+				top: 25px;
+				left: 50px;
+			}
+			#absolute1{
+				color: #C6E2FF;
+				border: 2px solid #FF6A6A;
+				position: absolute;
+				top: 75px;
+				left: 135px;
+				height: 100px;
+				width: 150px;
+			}
+
+			/* fixed = relativo à página */
+			#fixed{
+				color: yellow;
+				border: 2px solid gray;
+				position: fixed;
+				height: 100px;
+				width: 150px;
+				top: 0px;
+				left: 200px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<p id="static">exemplo de posionamento: static</p>
+		<p id="relative">exemplo de posionamento: relative</p>
+		<div id="absolute">
+			<p id="absolute1">exemplo de posionamento: absolute</p>
+		</div>
+		<p id="fixed">exemplo de posionamento: fixed</p>
+
+	</body>
+</html>

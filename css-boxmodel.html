@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CSS - BOXMODEL</title>
+		<style>
+			#boxmodel1{
+				color: pink;
+				border: solid gray;
+					/* só "border" é geral */
+					/* no "width", quanto maior, mais larga será a linha */
+				width: 700px;
+				border-width: 1px 0px 1px 0px;
+					/* top - right - bottom - left */
+				padding: 15px 0px 15px 0px;
+				padding-left: 15px;
+				padding-right: 15px;
+					/* o "padding" dá um espaço entre o texto e a borda */
+					/* top - right - bottom - left */
+				margin: 0px 0px 0px 0px;
+				margin-left: 15px;
+				margin-right: 15px;
+			}
+			#boxmodel2{
+				color: lightblue;
+				border: solid gray;
+				width: 700px;
+				border-width: 1px 0px 1px 0px;
+				padding: 15px 0px 15px 0px;
+				padding-left: 15px;
+				padding-right: 15px;
+				margin: 0px 0px 0px 0px;
+				margin-left: 15px;
+				margin-right: 15px;
+			}
+			#boxmodel3{
+				color: lightgreen;
+				border: solid gray;
+				width: 700px;
+				border-width: 1px 0px 1px 0px;
+				padding: 15px 0px 15px 0px;
+				padding-left: 15px;
+				padding-right: 15px;
+				margin: 0px 0px 0px 0px;
+				margin-left: 15px;
+				margin-right: 15px;
+			}
+			#boxmodel4{
+				color: yellow;
+				border: solid gray;
+				width: 700px;
+				border-width: 1px 0px 1px 0px;
+				padding: 15px 0px 15px 0px;
+				padding-left: 15px;
+				padding-right: 15px;
+				margin: 0px 0px 0px 0px;
+				margin-left: 15px;
+				margin-right: 15px;
+			}
+			.border1{
+				border: 5px solid pink;
+				padding: 10px;
+				width: 500px;
+			}
+			.border2{
+				border: 5px dotted #AB82FF;
+				padding: 10px;
+				width: 500px;
+			}
+			.border3{
+				border: 5px dashed #E0FFFF;
+				padding: 10px;
+				width: 500px;
+			}
+			.border4{
+				border: 5px double #FFE4E1;
+				padding: 10px;
+				width: 500px;
+			}
+			#boxmodel6{
+				color: lightblue;
+				border: 2px solid pink;
+				height: 150px;
+				width: 700px;
+				margin: 3px;
+				padding: 5px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="boxmodel1">
+			e lá vamos nós de mais um texto aleatório feio apenas para testar as formatações feitas em html e css. no episódio de hoje, falaremos sobre livro. e você me pergunta: "por que livros, Suelen?" e eu te respondo: "vai tomar no seu cú. eu falo do que eu quiser :)".
+			mas enfim, o livro de hoje será coraline. eu li esse livro faz um tempo, li em apenas uma noite. e sinceramente? esse livro é muito bom. é um pouco diferente do filme (como toda adaptação), mas é incrivelmente maravilhoso. algumas diferenças que eu notei foram:
+		</div>
+
+			<br/>
+
+		<div id="boxmodel2">
+			primeira: a coraline vai apenas uma vez para o "outro mundo", já no filme, se não me engano ela vai duas ou três.
+		</div>
+
+			<br/>
+			
+		<div id="boxmodel3">
+			segunda: o vizinho dela lá - o doido da motoca (digo, moto) - ele não existe no livro, o único ser que ela conhece lá é o gato - aquele gato preto cracudo -.
+		</div>
+
+			<br/>
+			
+		<div id="boxmodel4">
+			terceira: na parte dos fantasmas das crianças que estavam nesse outro mundo, ela tem visões com eles, e se não me engano ela até sonha com eles depois, quando ela consegue pegar as almas deles. essa terceira não foi muito legal, anyway, é o que eu lembro de diferenças.
+		</div>
+
+			<br/>
+
+		<div id="boxmodel5">
+			<p class="border1">coraline e o mundo secreto</p>
+			<p class="border2">coraline e o mundo secreto</p>
+			<p class="border3">coraline e o mundo secreto</p>
+			<p class="border4">coraline e o mundo secreto</p>
+		</div>
+
+			<br/>
+
+		<div id="boxmodel6">
+			este parágrafo possui 150px de altura, 700px de largura e 2px de borda, além de uma margem de 3px e um padding de 5px, totalizando 520px de altura e 720px de largura. porém, para deixar ele maior e para que seja mais clara a sua vizualização, falarei mais um pouco de coraline. sobre o desing do livro, eu tenho muito o que falar, já que ele é lindooooooo. 
+			as cores usadas na capa - e em todo o livro, já que são as cores principais - são amarelo e roxo, cores complementares. o livro por dentro tem alguns desenhos de acordo com o assunto de cada capítulo. as margens externa das folhas são pintadas de roxo, dando um acabamento magnífico. em suma esse livro é perfeito. 
+		</div>
+	</body>
+</html>

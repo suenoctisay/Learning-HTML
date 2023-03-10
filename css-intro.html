@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>INTRO - CSS</title>
+		<style>
+			
+			/* comentários em CSS são assim */
+			/* CSS em bloco é colocado no "head", nesse caso ele fica no mesmo aquivo */
+			/* CSS externo é feito em um arquivo externo nomeado ".css" */
+			
+
+			#div1 .div1{
+				color: #FFC1C1;
+				background-color: gray;
+				font-family: "verdana";
+				font-size: 15pt;
+				text-align: justify;
+				line-height: 25px;
+				border-style: solid;
+				border-color: lightblue;
+			}
+			#div2 .div2{
+				color: gray;
+				background-color: #FFC1C1;
+				font-family: "verdana";
+				font-size: 15pt;
+				text-align: center;
+				line-height: 50px;
+				/* "line-height" muda o espaçamento entre linhas */
+				border-bottom: solid lightblue;
+				border-top: solid lightgreen;
+				border-left: solid lightblue;
+				border-right: solid lightgreen;
+			}
+			#div3{
+				border-bottom: 2px solid lightyellow;
+				border-top: 2px solid lightyellow;
+				border-right: 2px solid lightgray;
+				border-left: 2px solid lightgray;
+			}
+			.div3{
+				color: black;
+			}
+			#div3 .div3 em{
+				/* isso aqui se chama descendente, isso porque chamei o id, class e depois a tag em um parágrafo dentro dessa sequência */
+				color: pink;
+			}
+			p{
+				color: lightblue;
+				font-family: "arial black";
+			}
+			body{
+				background-color: "white";
+			}
+		</style>
+
+	</head>
+	<body>
+		<!-- comentários em html são assim -->
+		<!-- "id" pode ser aplicado apenas uma vez, a "class" por outro lado, pode ser aberta seguidas vezes -->
+		<div id="div1">
+			<p class="div1">gostaria de colocar uma frase, mas estou com preguiça de pesquisar. por este motivo estou escrevendo qualquer coisa que passa na minha cabeça no momento. eu com certeza vou ficar neurada com esse "na minha cabeça", era para ser "em minha cabeça", enfim, loucuras de quem sabe muito português. às vezes ignorância é felicidade.</p>
+			<p>esse <em>parágrafo</em> não possui classe, mas está na mesma div que a frase de cima.</p>
+		</div>
+
+			<br/>
+
+		<div id="div2">
+			<p class="div2">teste</p>
+			<p>esse <em>parágrafo</em> está na mesma div, mas não possui uma classe.</p>
+		</div>
+
+			<br/>
+
+		<div id="div3">
+			<p>teste</p>
+			<p class="div3">esse <em>parágrafo</em> está dentro da div 3. estou tentando fazer um pequeno texto para poder ver como fica a formatação dele. ps.: ele é o texto que possui classe. vou escrever mais um pouco só para ter mais o que apreciar.</p>
+		</div>
+
+			<br/>
+
+		<div id="div4">
+			<p>teste</p>		
+		</div>
+
+			<br/>
+
+		<div id="div5">
+			<p>teste</p>
+		</div>
+
+	</body>
+</html>

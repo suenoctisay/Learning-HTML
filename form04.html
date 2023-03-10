@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FORM - 4</title>
+	</head>
+	
+	<body>
+	
+		<form>
+			<table>
+				<tr bgcolor="#4B0082">
+					<td colspan="6"><span style="color: #FFFFFF">Cadastro de loja</span></td>
+				</tr>
+				
+				<tr bgcolor="#4B0082" border="1">
+					<td><span style="color: #FFFFFF">Geral</span></td>
+					<td><span style="color: #FFFFFF">Classificação de...</span></td>
+					<td bgcolor="white"><span style="color: #FFD700">Endereço/Contato</span></td>
+					<td><span style="color: #FFFFFF">Config. e dados...</span></td>
+					<td><span style="color: #FFFFFF">Config. e dados...</span></td>
+					<td><span style="color: #FFFFFF">Config. e dados...</span></td>
+				</tr>
+				
+				<tr>
+					<td>Endereço</td>
+					<td>Número</td>
+					<td>Complemento</td>
+				</tr>
+				
+				<tr>
+					<td><input type="text" name="endereco" id="endereco" value=""/></td>
+					<td><input type="number" name="numero" id="numero" value=""/></td>
+					<td><input type="text" name="complemento" id="complemento" value=""/></td>
+				</tr>
+				
+				<tr>
+					<td>Bairro</td>
+					<td>CEP</td>
+				</tr>
+				
+				<tr>
+					<td><input type="text" name="bairro" id="bairro" value=""/></td>
+					<td><input type="number" name="CEP" id="CEP" value=""/></td>
+				</tr>
+				
+				<tr>
+					<td><span style="color: #4B0082">*</span> Estado</td>
+					<td><span style="color: #4B0082">*</span> Cidade</td>
+				</tr>
+				
+				<tr>
+					<td><select name="estado" id="estado">
+						<option value="">selecione</option>
+						<option value="AC">AC</option>
+						<option value="AL">AL</option>
+						<option value="AP">AP</option>
+						<option value="AM">AM</option>
+						<option value="BA">BA</option>
+						<option value="CE">CE</option>
+						<option value="ES">ES</option>
+						<option value="GO">GO</option>
+						<option value="MA">MA</option>
+						<option value="MT">MT</option>
+						<option value="MS">MS</option>
+						<option value="MG">MG</option>
+						<option value="PA">PA</option>
+						<option value="PB">PB</option>
+						<option value="PR">PR</option>
+						<option value="PE">PE</option>
+						<option value="PI">PI</option>
+						<option value="RJ">RJ</option>
+						<option value="RN">RN</option>
+						<option value="RS">RS</option>
+						<option value="RO">RO</option>
+						<option value="RR">RR</option>
+						<option value="SC">SC</option>
+						<option value="SP">SP</option>
+						<option value="SE">SE</option>
+						<option value="TO">TO</option>
+						<option value="DF">DF</option>
+						</select/></td>
+					<td><select name="cidade" id="cidade">
+						<option value="">selecione</option>
+						<select/></td>
+				</tr>
+				
+				<tr>
+					<td>Telefone - loja</td>
+					<td>Fax - loja</td>
+					<td>Telefone - escritório</td>
+					<td>Fax - escritório</td>
+				</tr>
+				
+				<tr>
+					<td><input type="text" name="telefoneloja" id="telefoneloja" value=""/></td>
+					<td><input type="text" name="faxloja" id="faxloja" value=""/></td>
+					<td><input type="text" name="telefoneescritorio" id="telefoneescritorio" value=""/></td>
+					<td><input type="text" name="faxescritorio" id="faxescritorio" value=""/></td>
+				</tr>
+				
+				<tr>
+					<td>Celular</td>
+					<td>Contato</td>
+					<td>Site</td>
+				</tr>
+				
+				<tr>
+					<td><input type="number" name="celular" id="celular" value=""/></td>
+					<td><input type="text" name="contato" id="contato" value="" placeholder="nome do proprietário"/></td>
+					<td><input type="url" name="site" id="site" value=""/></td>
+				</tr>
+				
+				<tr>
+					<td>E-mail</td>
+					<td>E-mail do financeiro</td>
+				</tr>
+				
+				<tr>
+					<td><input type="email" name="email" id="email" value=""/></td>
+					<td><input type="email" name="emailfinanceiro" id="emailfinanceiro" value=""/></td>
+				</tr>
+					
+				<tr>
+					<td colspan="6"><br><hr/></td>
+				</tr>
+					
+				<tr>
+					<td colspan="6">Selecione abaixo os dias da semana em que a loja não trabalha:</td>
+				</tr>
+				
+				<tr>
+					<td><input type="checkbox" name="semana" id="semana" value=""/><span style="color: #4B0082">Domingo</span></td>
+					<td><input type="checkbox" name="semana" id="semana" value=""/><span style="color: #4B0082">Quinta-feira</span></td>
+				</tr>
+				
+				<tr>
+					<td><input type="checkbox" name="semana" id="semana" value=""/><span style="color: #4B0082">Segunda-feira</span></td>
+					<td><input type="checkbox" name="semana" id="semana" value=""/><span style="color: #4B0082">Sexta-feira</span></td>
+				</tr>
+				
+				<tr>
+					<td><input type="checkbox" name="semana" id="semana" value=""/><span style="color: #4B0082">Terça-feira</span></td>
+					<td><input type="checkbox" name="semana" id="semana" value=""/><span style="color: #4B0082">Sábado</span></td>
+				</tr>
+				
+				<tr>
+					<td><input type="checkbox" name="semana" id="semana" value=""/><span style="color: #4B0082">Quanta-feira</span></td>
+				</tr>
+				
+				<tr>
+					<td><br/></td>
+				</tr>
+				
+			</table>
+			
+			<table>
+				<tr>
+					<td><img /></td>
+					<td><input type="submit" name="btnsalvar" id="btnsalvar" value="salvar"/></td>
+					<td><img /></td>
+					<td><input type="reset" name="btnlimpar" id="btnlimpar" value="limpar"/></td>
+				</tr>
+				
+			</table>
+		</form>
+	</body>
+</html>

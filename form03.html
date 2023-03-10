@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FORM - 3</title>
+	</head>
+	<body>
+		<form>			
+			<table>					
+				<tr bgcolor="#D3D3D3">		
+					<td colspan="3">Formulário de envio de arquivos - encadernação - laborphoto</td>
+				</tr>			
+					
+				<tr bgcolor="#D3D3D3">			
+					<td colspan="3">Dados do cliente</td>
+				</tr>
+				
+				<tr>
+					<td colspan="2"><label>Nome do profissional / Empresa cadastrada <span style="color: red">*</span></label></td>	
+				</tr>
+				
+				<tr>
+					<td><input type="text" name="profissional" id="proficional" value=""/></td>
+				</tr>
+				
+				<tr>
+					<td><br/></td>
+				</tr>
+				
+				<tr>					
+					<td><label>E-mail <span style="color: red">*</span></label></td>
+				</tr>
+				
+				<tr>
+					<td><input type="email" name="email" id="email" value=""/></td>
+				</tr>
+				
+				<tr>
+					<td><span style="color: gray">utilize um e-mail válido</span></td>
+				</tr>
+				
+				<tr>
+					<td><br/></td>
+				</tr>
+				
+				<tr bgcolor="#D3D3D3">
+					<td colspan="3">Dados do álbum</td>
+				</tr>
+				
+				<tr>
+					<td colspan="3"><label>Assunto (ex.: 15 anos Debora, Casamento da Luana e Fernando, Aniversário 1 ano Felipe) <span style="color: red">*</span></label></td>
+				</tr>
+				
+				<tr>
+					<td><input type="text" name="assunto" id="assunto" value=""/></td>
+				</tr>
+				
+				<tr>
+					<td><br/></td>
+				</tr>
+				
+				<tr>
+					<td colspan="3"><label>Modelo de capa <span style="color: red">*</span></label></td>
+				</tr>
+					 
+				<tr>
+					<td width="192px"><input type="radio" name="capa" id="capa" value=""/>AT001</td>
+					<td width="192px"><input type="radio" name="capa" id="capa" value=""/>AT002</td>
+					<td><input type="radio" name="capa" id="capa" value=""/>AT003</td>
+				</tr>
+						
+				<tr>
+					<td><input type="radio" name="capa" id="capa" value=""/>AT004</td>
+					<td><input type="radio" name="capa" id="capa" value=""/>AT005</td>
+					<td><input type="radio" name="capa" id="capa" value=""/>AT006</td>
+				</tr>
+						
+				<tr>
+					<td><input type="radio" name="capa" id="capa" value=""/>AT007</td>
+					<td><input type="radio" name="capa" id="capa" value=""/>AT008</td>
+					<td><input type="radio" name="capa" id="capa" value=""/>AT009</td>
+				</tr>
+						
+				<tr>
+					<td><input type="radio" name="capa" id="capa" value=""/>AT010</td>
+					<td><input type="radio" name="capa" id="capa" value=""/>AT011</td>
+					<td><input type="radio" name="capa" id="capa" value=""/>AT012</td>
+				</tr>
+						
+				<tr>	
+					<td><input type="radio" name="capa" id="capa" value=""/>AT013</td>
+					<td><input type="radio" name="capa" id="capa" value=""/>AT014</td>
+					<td><input type="radio" name="capa" id="capa" value=""/>AT015</td>
+				</tr>
+						
+				<tr>
+					<td><input type="radio" name="capa" id="capa" value=""/>AT016</td>
+					<td><input type="radio" name="capa" id="capa" value=""/><input type="text" name="outro" id="outro" value="" placeholder="other" size="10"/></td>
+					<td></td>					
+				</tr>
+				
+				<tr>
+					<td><br/></td>
+				</tr>
+				
+				<tr>			
+					<td><label>Tipo de encardenação <span style="color: red">*</span></label></td>
+				</tr>
+				
+				<tr>
+					<td colspan="3"><input type="radio" name="encadernacao" id="encadernacao" value="corte"/>corte (com divisão branco no meio do álbum)</td>
+				</tr>
+				
+				<tr>
+					<td colspan="3"><input type="radio" name="encadernacao" id="encadernacao" value="vinco"/>vinco (dobrada no meio do álbum sem separar foto)</td>
+				</tr>
+				
+				<tr>
+					<td><br/></td>
+				</tr>
+				
+				<tr>
+					<td colspan="3"><label>Revestimento do álbum - selecione outro para escolher um material de acordo com o catalogo de cores <span style="color: red">*</span></label></td>
+				</tr>
+				
+				<tr>
+					<td><input type="radio" name="revestimento" id="revestimento" value=""/>Capa - texto</td>
+				</tr>
+				
+				<tr>
+					<td><input type="radio" name="revestimento" id="revestimento" value=""/><input type="text" name="outro" id="outro" value="" placeholder="other" size="10"/></td>
+				</tr>
+				
+				<tr>
+					<td><br/></td>
+				</tr>
+				
+				<tr>
+					<td><label>Laminação das fotos <span style="color: red">*</span></label></td>
+				</tr>
+				
+				<tr>
+					<td colspan="3"><input type="radio" name="laminacao" id="laminacao" value=""/>Fosco térmica (acréscimo de 30%)</td>
+				</tr>
+				
+				<tr>
+					<td colspan="3"><input type="radio" name="laminacao" id="laminacao" value=""/>Brilho térmica (acréscimo de 	25%)</td>
+				</tr>
+				
+				<tr>
+					<td colspan="3"><input type="radio" name="laminacao" id="laminacao" value=""/>Brilho líquida (sem acréscimo)</td>
+				</tr>
+				
+				<tr>
+					<td><br/></td>
+				</tr>
+				
+				<tr>
+					<td><input type="submit" name="btncadastrar" id="btncadastrar" value="cadastrar"/>
+						<input type="reset" name="btnlimpar" id="btnlimpar" value="limpar"/></td>
+				</tr>
+				
+				
+			</table>
+		</form>
+		
+	</body>
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FORM - 2</title>
+	</head>
+	<body>
+		<form action="" method="post">
+			<table>
+				<tr>
+					<td bgcolor="#4876FF" colspan="2"><span style="color: white">Dados para ficha catalográfica</span></td>
+				</tr>
+				
+				<tr>
+					<td><br/></td>
+				</tr>
+				
+				<tr>
+					<td><label>Nome:</label></td>
+					<td><input type="text" name="nome" id="nome" size="70" value=""/></td>
+				</tr>
+				
+				<tr>
+					<td><label>Sobrenome:</label></td>
+					<td><input type="text" name="sobrenome" id="sobrenome" size="70" value=""/></td>
+				</tr>
+				
+				<tr>
+					<td><label>Título do trabalho:</label></td>
+					<td><input type="text" name="titulo" id="titulo" size="70" value=""/></td>
+				</tr>
+				
+				<tr>
+					<td><label>Código cutter: </label></td>
+					<td><input type="number" name="codigo" id="codigo" value=""/>
+					<a href=""><span style="color: #4876FF"">ver tabela</span></a></td>
+				</tr>
+				
+				<tr>
+					<td><br/></td>
+				</tr>
+				
+				<tr>
+					<td><label>Trabalho: </label></td>
+					<td><input type="radio" name="trabalho" id="trabalho" value="tese"/> tese
+						<input type="radio" name="trabalho" id="trabalho" value="dissertação"/> dissertação</td>
+				</tr>
+				
+				<tr>
+					<td><br/></td>
+				</tr>
+				
+				<tr>
+					<td><label>Programa:</label></td>
+					<td><select name="selprograma" id="selprograma">
+							<option value="0">selecione</option>
+							<option value="1">história</option>
+							<option value="2">matemática</option>
+							<option value="3">física</option>
+							<option value="4">química</option>
+							<option value="5">biologia</option>
+							<option value="6">filosofia</option>
+							<option value="7">letras</option>
+						</select></td>
+				</tr>
+				
+				<tr>
+					<td><br/></td>
+				</tr>
+				
+				<tr>
+					<td><label>Trabalho:</label></td>
+					<td><input type="radio" name="trabalho" id="trabalho" value="especialização"/>especialização</td>
+				</tr>
+				
+				<tr>
+					<td><br/></td>
+				</tr>
+				
+				<tr>
+					<td><label>Curso:</label></td>
+					<td><input type="text" name="curso" id="curso" size="40" value=""/></td>
+				</tr>
+				
+				<tr>
+					<td><label>Trabalho:</label></td>
+					<td><input type="radio" name="trabalho" id="trabalho" value="graduação"/>graduação (Trabalho de Conclusão de Curso)</td>
+				</tr>
+				
+				<tr>
+					<td><br/></td>
+				</tr>
+				
+				<tr>
+					<td><label>Curso:</label></td>
+					<td><select id="selcurso" name="selcurso">
+							<option value="0">selecione</option>
+							<option value="1">ciência da computação</option>
+							<option value="2">matemática</option>
+							<option value="3">psicologia</option>
+							<option value="4">medicina</option>
+						</select></td>
+				</tr>
+				
+				<tr>
+					<td><br/></td>
+				</tr>
+				
+				<tr>
+					<td><label>Nome do orientador:</label></td>
+					<td><input type="text" name="nomeorientadora" id="nomeorientador" size="40" value=""/></td>
+				</tr>
+				
+				<tr>
+					<td><label>Sobrenome do orientador:</label></td>
+					<td><input type="text" name="sobrenomeorientadora" id="sobrenomeorientador" size="40" value=""/>
+						<input type="checkbox" name="orientadora" id="orientadora" value="orientadora"> orientadora
+					</td>
+				</tr>
+				
+				<tr>
+					<td><br/></td>
+				</tr>
+				
+				<tr>
+					<td><label>Nome do coorientador:</label></td>
+					<td><input type="text" name="nomecoorientadora" id="nomecoorientador"  size="40" value=""/></td>
+				</tr>
+				
+				<tr>
+					<td><label>Sobrenome do coorientador:</label></td>
+					<td><input type="text" name="sobrenomecoorientadora" id="sobrenomecoorientador" size="40" value=""/>
+						<input type="checkbox" name="coorientadora" id="coorientadora" value="coorientadora"> coorientadora
+					</td>
+				</tr>
+				
+				<tr>
+					<td><br/></td>
+				</tr>
+				
+				<tr>
+					<td><label>Ano: </label></td>
+					<td><input type="number" name="ano" id="ano" value=""/></td>
+				</tr>
+				
+				<tr>
+					<td><label>Nº de páginas, folhas ou volumes</label></td>
+					<td><input type="text" name="numero" id="numero" value=""/></td>
+				</tr>
+				
+				<tr>
+					<td>Assuntos (min: 1, max: 5):</td>
+					<td></td>
+				</tr>
+				
+				<tr>
+					<td></td>
+					<td><label>1. </label>
+						<input type="text" name="assunto1" id="assunto1"  size="38" value=""/></td>
+				</tr>
+				
+				<tr>
+					<td></td>
+					<td><label>2. </label>
+						<input type="text" name="assunto2" id="assunto2" size="38"  value=""/></td>
+				</tr>
+				
+				<tr>
+					<td></td>
+					<td><label>3. </label>
+						<input type="text" name="assunto3" id="assunto3" size="38" value=""/></td>
+				</tr>
+				
+				<tr>
+					<td></td>
+					<td><label>4. </label>
+						<input type="text" name="assunto4" id="assunto4" size="38" value=""/></td>
+				</tr>
+				
+				<tr>
+					<td></td>
+					<td><label>5. </label>
+						<input type="text" name="assunto5" id="assunto5" size="38" value=""/></td>
+				</tr>
+				
+				<tr>
+					<td></td>
+					<td><input type="submit" name="btnenviar" id="btnenviar" value="enviar"/>
+						<input type="reset" name="btnlimpar" id="btnlimpar" value="limpar"/></td>
+				</tr>
+			</table>
+		</form>
+			
+	</body>
+</html>
